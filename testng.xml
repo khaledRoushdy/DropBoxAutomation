@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestAll">
+
+	<test name="DropBoxTests">
+	    <parameter name="email"  value="khaled.dropbox@gmail.com"/>
+	    <parameter name="password"  value="Password-93"/>
+		<classes>
+			<class name="com.optile.dropboxTask.Tests.DropBoxTests" />
+		</classes>
+	</test>
+
+
+</suite>

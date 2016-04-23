@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestAll" duration-ms="761407" started-at="2016-04-23T13:52:31Z" finished-at="2016-04-23T14:05:13Z">
+    <groups>
+    </groups>
+    <test name="DropBoxTests" duration-ms="761407" started-at="2016-04-23T13:52:31Z" finished-at="2016-04-23T14:05:13Z">
+      <class name="com.optile.dropboxTask.Tests.DropBoxTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.optile.dropboxTask.Tests.DropBoxTests@256216b3]" name="setup" is-config="true" duration-ms="8866" started-at="2016-04-23T15:52:31Z" finished-at="2016-04-23T15:52:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="uploadFile(java.lang.String, java.lang.String)[pri:0, instance:com.optile.dropboxTask.Tests.DropBoxTests@256216b3]" name="uploadFile" duration-ms="36901" started-at="2016-04-23T15:52:40Z" finished-at="2016-04-23T15:53:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[khaled.dropbox@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password-93]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadFile -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.optile.dropboxTask.Tests.DropBoxTests@256216b3]" name="tearDown" is-config="true" duration-ms="25" started-at="2016-04-23T15:53:17Z" finished-at="2016-04-23T15:53:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.optile.dropboxTask.Tests.DropBoxTests@256216b3]" name="setup" is-config="true" duration-ms="6973" started-at="2016-04-23T15:53:17Z" finished-at="2016-04-23T15:53:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkShowDeletedFilesFunction(java.lang.String, java.lang.String)[pri:0, instance:com.optile.dropboxTask.Tests.DropBoxTests@256216b3]" name="checkShowDeletedFilesFunction" duration-ms="144128" started-at="2016-04-23T15:53:24Z" finished-at="2016-04-23T15:55:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[khaled.dropbox@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password-93]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkShowDeletedFilesFunction -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.optile.dropboxTask.Tests.DropBoxTests@256216b3]" name="tearDown" is-config="true" duration-ms="11" started-at="2016-04-23T15:55:48Z" finished-at="2016-04-23T15:55:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.optile.dropboxTask.Tests.DropBoxTests@256216b3]" name="setup" is-config="true" duration-ms="6994" started-at="2016-04-23T15:55:48Z" finished-at="2016-04-23T15:55:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createNewFolder(java.lang.String, java.lang.String)[pri:0, instance:com.optile.dropboxTask.Tests.DropBoxTests@256216b3]" name="createNewFolder" duration-ms="184218" started-at="2016-04-23T15:55:55Z" finished-at="2016-04-23T15:59:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[khaled.dropbox@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password-93]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewFolder -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.optile.dropboxTask.Tests.DropBoxTests@256216b3]" name="tearDown" is-config="true" duration-ms="15" started-at="2016-04-23T15:59:00Z" finished-at="2016-04-23T15:59:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.optile.dropboxTask.Tests.DropBoxTests@256216b3]" name="setup" is-config="true" duration-ms="6694" started-at="2016-04-23T15:59:00Z" finished-at="2016-04-23T15:59:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginLoginOut(java.lang.String, java.lang.String)[pri:0, instance:com.optile.dropboxTask.Tests.DropBoxTests@256216b3]" name="loginLoginOut" duration-ms="181051" started-at="2016-04-23T15:59:06Z" finished-at="2016-04-23T16:02:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[khaled.dropbox@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password-93]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLoginOut -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.optile.dropboxTask.Tests.DropBoxTests@256216b3]" name="tearDown" is-config="true" duration-ms="2732" started-at="2016-04-23T16:02:07Z" finished-at="2016-04-23T16:02:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.optile.dropboxTask.Tests.DropBoxTests@256216b3]" name="setup" is-config="true" duration-ms="6749" started-at="2016-04-23T16:02:10Z" finished-at="2016-04-23T16:02:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="deleteFile(java.lang.String, java.lang.String)[pri:0, instance:com.optile.dropboxTask.Tests.DropBoxTests@256216b3]" name="deleteFile" duration-ms="176003" started-at="2016-04-23T16:02:17Z" depends-on-methods="com.optile.dropboxTask.Tests.DropBoxTests.uploadFile" finished-at="2016-04-23T16:05:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[khaled.dropbox@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password-93]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteFile -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.optile.dropboxTask.Tests.DropBoxTests@256216b3]" name="tearDown" is-config="true" duration-ms="15" started-at="2016-04-23T16:05:13Z" finished-at="2016-04-23T16:05:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.optile.dropboxTask.Tests.DropBoxTests -->
+    </test> <!-- DropBoxTests -->
+  </suite> <!-- TestAll -->
+</testng-results>

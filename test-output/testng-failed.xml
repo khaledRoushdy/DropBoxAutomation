@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestAll]">
+  <parameter name="password" value="Password-93"/>
+  <parameter name="email" value="khaled.dropbox@gmail.com"/>
+  <test name="DropBoxTests">
+    <parameter name="password" value="Password-93"/>
+    <parameter name="email" value="khaled.dropbox@gmail.com"/>
+    <classes>
+      <class name="com.optile.dropboxTask.Tests.DropBoxTests"/>
+    </classes>
+  </test> <!-- DropBoxTests -->
+</suite> <!-- Failed suite [TestAll] -->
